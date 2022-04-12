@@ -1,0 +1,65 @@
+/*
+Background:
+0B0C10
+
+Secondary Background:
+1F2833
+Gray
+C5C6C7
+
+Primary:
+66FCF1
+
+Secondary:
+45A29
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+}
+
+a, .nav-link {
+    color: #66FCF1;
+}
+
+
+/* HEADER */
+
+.navbar {
+    background-color: #0B0C10;
+    color: #66FCF1 !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btn-main {
+    background-color: #66FCF1 !important;
+    color: #0B0C10 !important;
+}
+
+/* HERO */
+.hero {
+    background-color: #1F2833;
+}
+
+.hero-post-badges {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hero-post-badges > a {
+    background-color: #0B0c10;
+    color: #66FCF1;
+}

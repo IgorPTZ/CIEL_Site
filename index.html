@@ -6,11 +6,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
         <!-- HEADER SECTION -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
                     <a class="navbar-brand" href="#">CIEL</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,8 +33,8 @@
                         </li>
                       </ul>
                       <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2 border-0 rounded-0" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn-main rounded-0 btn btn-outline-success" type="submit">Search</button>
                       </form>
                     </div> 
             </div>
@@ -294,9 +295,54 @@
                         </article> 
 
                         <h4 class="aside-heading mt-4">Popular Categories</h4>
+
+                        <div class="badge w-100">
+                            <p class="badge-link">
+                                <a>Technology</a>
+                            </p>
+
+                            <p class="badge-link">
+                                <a>Education</a>
+                            </p>
+                        </div>
                     </aside>
                 </div>
             </div>
           </section>
+
+          <!-- FOOTER SECTION -->
+          <footer>
+              <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a class="footer-logo" href="">CIEL</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu leo et libero efficitur gravida et et diam. Sed consectetur eleifend est et iaculis. Integer tempus venenatis mi, eget sodales dui porttitor at. Vivamus dignissim leo non eros convallis ullamcorper.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li><a>Home</a></li>
+                                <li><a>Terms of use</a></li>  
+                                <li><a>Privacy</a></li>
+                                <li><a>Contact Us</a></li>
+                                <li><a>Newsletter</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h4>Newsletter</h4>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Send</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="w-100 text-center credits">
+                        <p>Made by <a href="http://www.github.com/IgorPTZ">Igor Pereira</a> &copy; 2022. All rights reserved</p>
+                    </div>
+              </div>
+          </footer>
     </body>
 </html>
