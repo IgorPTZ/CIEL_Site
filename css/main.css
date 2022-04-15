@@ -1,21 +1,6 @@
-/*
-Background:
-0B0C10
-
-Secondary Background:
-1F2833
-Gray
-C5C6C7
-
-Primary:
-66FCF1
-
-Secondary:
-45A29
-*/
-
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #c8d1f5;
 }
 
 h1,
@@ -27,15 +12,15 @@ h5 {
 }
 
 a, .nav-link {
-    color: #66FCF1;
+    color: #02040e;
 }
 
 
 /* HEADER */
 
 .navbar {
-    background-color: #0B0C10;
-    color: #66FCF1 !important;
+    background-color: #526cd6;
+    color: #2380eb !important;
 }
 
 .navbar-brand {
@@ -44,22 +29,21 @@ a, .nav-link {
 }
 
 .btn-main {
-    background-color: #66FCF1 !important;
-    color: #0B0C10 !important;
+    background-color: #c8d1f5 !important;
+    color: #c8d1f5 !important;
 }
 
-/* HERO */
+/* BODY */
 .hero {
-    background-color: #1F2833;
+    background-color: #c8d1f5;
 }
 
 .hero-post-badges {
-    position: absolute;
     top: 20px;
     right: 20px;
 }
 
 .hero-post-badges > a {
-    background-color: #0B0c10;
+    background-color: #c8d1f5;
     color: #66FCF1;
 }
