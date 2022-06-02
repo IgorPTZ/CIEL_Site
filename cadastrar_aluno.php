@@ -15,7 +15,7 @@
     $result = mysqli_query($con, $sql);
 
     if($result) {
-      echo "Aluno cadastro com sucesso!";
+      header('location:listar_aluno.php');
     }
     else {
       die(mysqli_error($con));
